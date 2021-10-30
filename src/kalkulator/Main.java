@@ -1,10 +1,16 @@
 package kalkulator;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello");
+		Scanner scanner = new Scanner(System.in); // skener koji cita sa standardnog ulaza
+		String str;
+		
+		str = scanner.nextLine();
+		System.out.println(str);
 	}
 
 }
