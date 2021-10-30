@@ -14,7 +14,8 @@ public class Main {
 			String[] arr = str.split(" ");
 			
 			if(arr.length != 3) {
-				System.out.println("Invalid input");
+				if (!str.equals("kraj"))
+					System.out.println("Invalid input");
 				continue;
 			}
 			
