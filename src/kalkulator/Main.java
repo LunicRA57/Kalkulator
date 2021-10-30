@@ -24,6 +24,7 @@ public class Main {
 			
 			if(arr[1].equals("+")) add(a, b);
 			if(arr[1].equals("-")) sub(a, b);
+			if(arr[1].equals("*")) mul(a, b);
 			
 		} while(!str.equals("kraj"));
 		
@@ -36,6 +37,10 @@ public class Main {
 	
 	public static void sub(int x, int y) {
 		System.out.println(x - y);
+	}
+	
+	public static void mul(int x, int y) {
+		System.out.println(x * y);
 	}
 
 }
