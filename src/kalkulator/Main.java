@@ -9,8 +9,10 @@ public class Main {
 		Scanner scanner = new Scanner(System.in); // skener koji cita sa standardnog ulaza
 		String str;
 		
-		str = scanner.nextLine();
-		System.out.println(str);
+		do {
+			str = scanner.nextLine();
+			
+		} while(!str.equals("kraj"));
 	}
 
 }
