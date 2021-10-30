@@ -11,6 +11,12 @@ public class Main {
 		
 		do {
 			str = scanner.nextLine();
+			String[] arr = str.split(" ");
+			
+			if(arr.length != 3) {
+				System.out.println("Invalid input");
+				continue;
+			}
 			
 		} while(!str.equals("kraj"));
 	}
