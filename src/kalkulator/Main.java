@@ -18,6 +18,11 @@ public class Main {
 				continue;
 			}
 			
+			int a = Integer.parseInt(arr[0]);
+			int b = Integer.parseInt(arr[2]);
+			
+			System.out.println(a+b);
+			
 		} while(!str.equals("kraj"));
 	}
 
