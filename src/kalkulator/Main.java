@@ -22,9 +22,20 @@ public class Main {
 			int a = Integer.parseInt(arr[0]);
 			int b = Integer.parseInt(arr[2]);
 			
-			System.out.println(a+b);
+			if(arr[1].equals("+")) add(a, b);
+			if(arr[1].equals("-")) sub(a, b);
 			
 		} while(!str.equals("kraj"));
+		
+		
+	}
+	
+	public static void add(int x, int y) {
+		System.out.println(x + y);
+	}
+	
+	public static void sub(int x, int y) {
+		System.out.println(x - y);
 	}
 
 }
